@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Site</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Nunito&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300&family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <div class="sidebar">
+            <i class="bx bx-x" onclick="hideMenu()"></i>
+
+            <ul>
+              <li>
+                <a href="home.html"><i class="bx bxs-home"></i> Home</a>
+              </li>
+              <li>
+                <a href="#about"><i class="bx bxs-user"></i> About Me</a>
+              </li>
+              <li>
+                <a href="#contact"><i class="bx bxs-phone"></i> Contact Me</a>
+              </li>
+            </ul>
+          </div>
+          <i class="bx bx-menu" onclick="showMenu()"></i>
+
+          <ul class="navbar">
+            <li>
+              <a href="home.html"><i class="bx bxs-home"></i> Home</a>
+            </li>
+            <li>
+              <a href="#about"><i class="bx bxs-user"></i> About Me</a>
+            </li>
+            <li>
+              <a href="#contact"><i class="bx bxs-phone"></i> Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="header">
+      <div class="text-box">
+        <h2>Welcome to my site</h2>
+        <h1>Hi, I'm Hadeel , a Software <span>Developer.</span></h1>
+
+        <div class="container">
+          <input type="checkbox" id="check" />
+          <p>
+            I am a Bachelor of Computer Science student. I have skills in user
+            experience design and front-end development, and I have prior
+            experience in this field.
+          </p>
+          <p class="content">
+            I would like to learn to develop mobile applications and electronic
+            games and delve into this field in the future. adipisicing elit.
+          </p>
+
+          <label for="check">Read More..</label>
+        </div>
+
+        <div class="buttons">
+          <a href="" class="hero-btn"> Hire Me ! </a>
+          <a href="#projects" class="hero-btn"> See My Project </a>
+        </div>
+      </div>
+      <div class="user">
+        <img src="images/user.png" />
+      </div>
+    </section>
+
+    <!-- ----About Me----- -->
+
+    <center><hr width="70%" /></center>
+
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <p>Bachelor's degree in Computer Science with a minor in Business</p>
+      <p class="me">
+        I worked in my specialty as a freelancer. I focused on front-end
+        development. I would like to learn to develop mobile applications and
+        games as soon as possible. I have practical experience in several
+        fields, which I will review below
+      </p>
+
+      <div class="row">
+        <div class="skill-col">
+          <h3>Front-End Developer</h3>
+
+          <p>
+            I studied computer science at Birzeit University. I worked in the
+            field of front-end development and found myself in this field more
+            than others. I have several development projects in the same field.
+            I also possess <span>UI/UX design </span>skills on Canva and have
+            practical experience in it.
+          </p>
+        </div>
+        <div class="skill-col">
+          <h3>Graphic Designer</h3>
+          <p>
+            I have a hobby in graphic design and I learned it self-teaching
+            through several courses on well-known platforms such as Coursera,
+            Udemy, and other platforms. I worked independently in this field and
+            have several projects designing social media ads, visual identities,
+            and logos.
+          </p>
+        </div>
+        <div class="skill-col">
+          <h3>Digital Marketing</h3>
+          <p>
+            I worked in digital marketing remotely during my studies in several
+            companies in various fields and gained sufficient experience that
+            qualified me for the position of head of the marketing and sales
+            department for a startup software company.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------ projects ------ -->
+
+    <section class="projects" id="projects">
+      <h2>Latest <span>Projects</span></h2>
+      <p>
+        I worked on several projects, including real and fictitious projects,
+        for the purpose of training and development
+      </p>
+
+      <div class="projectsContainer">
+        <div class="projectsBox">
+          <img src="images/collage.jpg" alt="" />
+          <div class="projectsLayer">
+            <h4>Landing Page</h4>
+            <p>
+              An introductory website for the college that contains basic
+              information about the college's facilities and services and a
+              communication section
+            </p>
+          </div>
+        </div>
+        <div class="projectsBox">
+          <img src="images/social.jpg" alt="" />
+          <div class="projectsLayer">
+            <h4>Social media</h4>
+            <p>
+              A social networking site for students, curriculum, reviews, and
+              student assistance
+            </p>
+          </div>
+        </div>
+        <div class="projectsBox">
+          <img src="images/blog.jpg" alt="" />
+          <div class="projectsLayer">
+            <h4>Blog</h4>
+            <p>Personal blog for technology content</p>
+          </div>
+        </div>
+        <div class="projectsBox">
+          <img src="images/eCommerce.jpg" alt="" />
+          <div class="projectsLayer">
+            <h4>eCommerce</h4>
+            <p>
+              An e-commerce website for an accessories store is under
+              construction
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------ Contact Me ------- -->
+
+    <footer class="contact" id="contact">
+      <div class="contactText">
+        <h2>Contact<span> Me!</span></h2>
+        <h4>If you have any project in your mind.</h4>
+        <p>I'm a Software Developer , graphic Desgner , Digital Marketing</p>
+        <div class="list">
+          <li><a>+970 597 225 139</a></li>
+          <li><a>daramnahadeel@gmail.com</a></li>
+        </div>
+        <a class="like">Like Shar & Subscribe</a>
+        <div class="contactIcons">
+          <a href="#"><i class="bx bxl-github"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+          <a href="#"><i class="bx bxl-behance"></i></a>
+        </div>
+      </div>
+
+      <div class="contactForm">
+        <form action="">
+          <input type="name" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Edmail Adress" required />
+          <input type="" placeholder="Your Mobile Number" required />
+          <textarea placeholder="How Can I Help You" required></textarea>
+          <input type="submit" value="Send Message" class="submit" required />
+        </form>
+      </div>
+    </footer>
+
+    <!-- ------ JavaScript ------- -->
+
+    <script>
+      function showMenu() {
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'flex';
+      }
+
+      function hideMenu() {
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'none';
+      }
+    </script>
+  </body>
+</html>
