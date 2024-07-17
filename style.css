@@ -84,7 +84,7 @@ nav {
 }
 
 .nav-links ul li a {
-  color: #000;
+  color: #008aaa;
   text-decoration: none;
   font-size: 13px;
   margin-right: 1rem;
@@ -106,12 +106,10 @@ nav {
 }
 
 .user img {
-  width: 70%;
-  margin: 5% 0 0 30%;
-  height: 65%;
+  width: 55%;
+  margin: 0% 0% 5% 20%;
+  height: 60%;
   object-fit: cover;
-  border-radius: 0 0 0 50%;
-  box-shadow: -41px 11px 0px -11px rgba(59, 186, 219, 0.6);
 }
 
 .text-box h1 span {
@@ -208,7 +206,7 @@ label {
 h2 {
   font-size: 30px;
   font-weight: 800;
-  color: #008aaa;
+  color: #d1884f;
   padding-top: 5%;
 }
 
@@ -250,6 +248,7 @@ h3 {
   text-align: center;
   font-weight: 600;
   margin: 10px 0;
+  color: #008aaa;
 }
 
 /*----- projects -----*/
@@ -312,7 +311,7 @@ h3 {
 
 .projectsLayer h4 {
   font-size: 1.5rem;
-  color: #000;
+  color: #fff;
 }
 
 .projectsLayer p {
@@ -498,9 +497,7 @@ form textarea {
   .user img {
     height: 250px;
     width: 250px;
-    border-radius: 50%;
     justify-content: center;
-    box-shadow: -22px 7px 0px -7px rgba(59, 186, 219, 0.6);
   }
 
   .about .me {
@@ -609,9 +606,8 @@ form textarea {
   .user img {
     height: 250px;
     width: 250px;
-    border-radius: 50%;
-    justify-content: center;
-    box-shadow: -22px 7px 0px -7px rgba(59, 186, 219, 0.6);
+    text-align: center;
+    margin: 5% 0 0 25%;
   }
 
   .about .me {
@@ -711,10 +707,10 @@ form textarea {
 
   .user img {
     width: 60%;
-    height: 65%;
+    height: 60%;
+    margin-top: 3%;
     align-items: center;
     border-radius: 0 0 0 30%;
-    box-shadow: -22px 7px 0px -7px rgba(59, 186, 219, 0.6);
   }
   .about .me {
     width: 100%;
@@ -786,10 +782,10 @@ form textarea {
     width: 70%;
   }
   .text-box h2 {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .text-box h1 {
-    font-size: 2.3rem;
+    font-size: 1.5rem;
   }
 
   .text-box p {
@@ -797,14 +793,13 @@ form textarea {
   }
 
   .text-box .hero-btn {
-    font-size: 12px;
+    font-size: 11.5px;
     padding: 5px 30px;
   }
 
   .user img {
-    width: 80%;
-    height: 60%;
-    box-shadow: -21px 7px 0px -7px rgba(59, 186, 219, 0.6);
+    width: 250px;
+    height: 250px;
   }
 
   .about .row {
@@ -857,12 +852,15 @@ form textarea {
   }
 }
 
-@media screen and(min-width: 941) {
+@media (min-width: 941px) {
+  .text-box {
+    width: 60%;
+  }
   .text-box h2 {
     font-size: 1.5rem;
   }
   .text-box h1 {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
 
   .text-box p {
@@ -871,11 +869,12 @@ form textarea {
 
   .text-box .hero-btn {
     padding: 5px 34px;
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .user img {
-    height: 60%;
+    width: 300px;
+    height: 300px;
   }
 
   .contactForm form {
